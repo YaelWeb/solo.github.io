@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TAKE IT CLOTNG</title>
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="container-fluid bg-dark position-sticky top-0">
+      <ul
+        class="nav nav-pills mb-3 py-3 container"
+        id="pills-tab"
+        role="tablist"
+      >
+ 
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link active"
+            id="pills-profile-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-profile"
+            type="button"
+            role="tab"
+            aria-controls="pills-profile"
+            aria-selected="false"
+            >Productos</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link"
+            id="pills-contact-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-contact"
+            type="button"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+            >Carrito</a
+          >
+        </li>
+      </ul>
+    </header>
+
+    <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
+    Producto Añadido al carrito!
+    </div>
+    <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+      Producto removido!
+    </div>
+
+    <div class="tab-content" id="pills-tabContent">
+      <div
+        class="tab-pane fade "
+        id="pills-home"
+        role="tabpanel"
+        aria-labelledby="pills-home-tab"
+      >
+        1
+      </div>
+      <div
+        class="tab-pane fade show active container"
+        id="pills-profile"
+        role="tabpanel"
+        aria-labelledby="pills-profile-tab"
+      >
+        <h2 class="h4 m-4 text-primary">Productos</h2>
+
+        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Card title 1</h5>
+              <img src="https://i.linio.com/p/9051e702e334ee1f9a7a9b1fb0d47872-product.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Camisa Varonil color azul cielo, disponible en todas las tallas</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Card title 2</h5>
+              <img src="https://i.linio.com/p/82405e0a994ccd8c3c7e7b769ed57acd-product.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Camisa color vino, disponible en todas las tallas</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Card title 3</h5>
+              <img src="https://img.ltwebstatic.com/images3_pi/2022/03/04/164635765163c6a70b06a15e966b0747fe9e478e60_thumbnail_405x552.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Camisa azul rey, disponible en todas las tallas.</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Card title 4</h5>
+              <img src="https://majasportswear.com/wp-content/uploads/2022/06/C-CO3-1_camisa-outdoor-traveler-verde-olivo_maja-sportswear-frontal-1000x1000.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Camisa color verde, disponible en talla X Y XL</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Card title 5</h5>
+              <img src="https://cdn.shopify.com/s/files/1/0575/5165/0995/products/calcetines-deportivos-con-titanio_398x467.jpg?v=1625070237" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Calcetin unisex color blanco</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Card title 6</h5>
+              <img src="https://www.newera.mx/medias/?context=bWFzdGVyfHJvb3R8MTM0NjgxfGltYWdlL3BuZ3xoYTQvaDIzLzk4NDMwNTM4ODc1MTh8ODA1ZmNkZGU3N2I1MDUxODQwNTI2Mjc1NzMxNWYzM2QwMTQxNTA1Y2FlMjRmYzkyYTlmYTdhMDIyNTI5ZTcxZg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Calcetin unisex color negro</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Card title 7</h5>
+              <img src="https://cdn.shopify.com/s/files/1/0012/1661/0359/products/21625_ORSD_540x.jpg?v=1649763119" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Pantalon Mezclilla hombre, disponible en todas las tallas </p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Card title 8</h5>
+              <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Pantalon de vestir Azul, dispoinle en talla 20 y 30</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 5</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+      <div
+        class="tab-pane fade carrito"
+        id="pills-contact"
+        role="tabpanel"
+        aria-labelledby="pills-contact-tab"
+      >
+      <br>
+      <table class="table table-dark table-hover">
+        <thead>
+          <tr class="text-primary">
+            <th scope="col">#</th>
+            <th scope="col">Productos</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+
+
+
+        </tbody>
+      </table>
+      <br><br>
+      <div class="row mx-4">
+        <div class="col">
+          <h3 class="itemCartTotal text-white">Total: 0</h3>
+        </div>
+        <div class="col d-flex justify-content-end">
+          <button class="btn btn-success">COMPRAR</button>
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+    <footer class="bg-dark p-3 mt-5">
+      <div><a href="index.html" >
+      <p class="text-center m-0 text-muted">TAKE IT CLOTING</p>
+    </footer> 
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/scripts.js"></script>
+
+
+    <CENTER><br>
+    <h4>
+      Contacto e información sobre nosotros:
+    </h4>
+    <br>
+    <p>
+    REDES SOCIALES
+  </p> 
+   <P> INSTAGRAM:</P>
+    <P> TAKE IT CLOTING</P>
+    <P>FACEBOOK:</P>
+    <P>SOMOS TAKE IT CLOTING PROYECTO ESTUDIANTIL</P>
+    
+    <p>
+      E-MAIL:</p>
+     <P> Takeitcloting@gmail.com</P>
+    <br>
+    <p>
+      NÚMERO TELEFÓNICO :</p>
+      <P>5624270404
+    </P> 
+  </CENTER>
+
+  
+   
+  </body>
+</html>
